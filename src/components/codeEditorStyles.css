@@ -1,0 +1,18 @@
+.cm-editor {
+  padding: 2px 0 2px 0;
+  border-radius: var(--chakra-radii-sm);
+}
+
+.cm-editor.cm-focused {
+  background: var(--chakra-colors-transparent);
+  border-color: #3182ce;
+  outline: 2px solid #3182ce;
+}
+
+.cm-line {
+  padding-left: 0.75rem !important;
+}
+
+.cm-placeholder {
+  color: var(--chakra-colors-gray-500) !important;
+}

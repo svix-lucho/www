@@ -20,7 +20,10 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-M6CVKDCG7J"></Script>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-M6CVKDCG7J"
+      ></Script>
       <Script id="google-analytics">
         {`
         window.dataLayer = window.dataLayer || [];
